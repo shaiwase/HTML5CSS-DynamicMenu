@@ -1,0 +1,64 @@
+body
+{
+background: #012;
+}
+nav .box
+{
+display: inline-block;
+width: 20%;
+float: left;
+font: bold 20px Tahoma;
+text-align: center;
+height: 250px;
+overflow: hidden;
+transition: width 1s;
+}
+.box a
+{
+display: block;
+top: 100%;
+height: 100%;
+vertical-align: middle;
+text-decoration: none;
+color: white;
+}
+.box span
+{
+display: block;
+vertical-align: middle;
+top: 100%;
+height: 100%;
+text-align: center;
+position: relative;
+overflow: hidden;
+color: white;
+text-decoration: none;
+text-align: center;
+padding-top: 20px;
+transition: top 1s;
+}
+
+#acceuil
+{
+background-color: red;
+}
+#a_propos
+{
+background-color: grey;
+}
+#Services
+{
+background-color: green;
+}
+#portfolio
+{
+background-color: pink;
+}
+#contact
+{
+background-color: blue;
+}
+
+nav:hover .box{width:10%;}
+nav .box:hover{width: 60%;}
+nav .box:hover span {top: 25%;}
